@@ -19,25 +19,3 @@ class Queue():
 
 if __name__ == '__main__':
      my_queue = Queue()
-     my_queue.push("Card1")
-     my_queue.push("Card2")
-     my_queue.push("Card3")
-     popped_card = my_queue.pop()
-     if popped_card is not None:
-        print(f"Popped card: {popped_card}")
-
-     popped_card = my_queue.pop()
-     if popped_card is not None:
-        print(f"Popped card: {popped_card}")
-     my_queue.push("Card4")
-     my_queue.push("Card5")
-     popped_card = my_queue.pop()
-     if popped_card is not None:
-        print(f"Popped card: {popped_card}")
-
-     popped_card = my_queue.pop()
-     if popped_card is not None:
-        print(f"Popped card: {popped_card}")
-     popped_card = my_queue.pop()
-     if popped_card is not None:
-        print(f"Popped card: {popped_card}")
