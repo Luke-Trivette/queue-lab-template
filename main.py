@@ -13,6 +13,8 @@ class Queue():
             return None
         else:
             return self.cards.pop(0)
+    def is_empty(self):
+        return len(self.cards) == 0
         
 
 if __name__ == '__main__':
@@ -23,6 +25,7 @@ if __name__ == '__main__':
      popped_card = my_queue.pop()
      if popped_card is not None:
         print(f"Popped card: {popped_card}")
+
      popped_card = my_queue.pop()
      if popped_card is not None:
         print(f"Popped card: {popped_card}")
