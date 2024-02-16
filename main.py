@@ -1,12 +1,8 @@
 class Queue():
     def __init__(self):
         self.cards = []
-
-    #REMOVE PASS AND COMPLETE THE FUNCTION
     def push(self, card):
         self.cards.append(card)
-
-    #REMOVE PASS AND COMPLETE THE FUNCTION
     def pop(self):
         if self.is_empty():
             print("Queue is empty. Cannot pop.")
